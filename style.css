@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #6a8c7b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200') center/cover;
+    height: 350px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.btn {
+    background-color: #6a8c7b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.conteudo, .formulario {
+    padding: 30px;
+}
+
+.terapia {
+    margin-bottom: 40px;
+}
+
+.terapia img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6a8c7b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #6a8c7b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
